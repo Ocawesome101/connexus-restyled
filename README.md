@@ -1,4 +1,4 @@
-# Depurplify
+# Connexus Restyled
 
 Partially fixes Connexus's asinine purple kindergartener-focused redesign through a userscript and stylesheet.
 
