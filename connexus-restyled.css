@@ -1,0 +1,65 @@
+/* ==UserStyle==
+@name           Connexus Restyled
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Restyle the Connexus lesson page
+@author         Ocawesome101
+==/UserStyle== */
+
+@-moz-document domain("connexus.com") {
+    /* Insert code here... */
+    header nav {
+        background-color: rgb(100, 100, 100);
+        border-bottom-color: rgb(200, 200, 200);
+    }
+    
+    .header-button {
+        background-color: rgb(75, 75, 75);
+        border: 2px solid rgb(150, 150, 150);
+    }
+    
+    .header-button:focus {
+        background-color: rgb(150, 150, 150);
+        border: 2px solid rgb(75, 75, 75);
+    }
+    
+    .assessment-item a {
+        background-color: rgb(100, 100, 100);
+        transition: 250ms;
+    }
+    
+    .assessment-item a:hover {
+        background-color: rgb(150, 150, 150);
+        transition: 250ms;
+    }
+
+    #menuAssessment:hover .material-icons,
+    #slideOutMenuAssessment:hover .material-icons,
+    #slideOutMenuAssessment > button:focus .material-icons,
+    .menu-1:hover .material-icons,
+    .menu-1 > button:focus .material-icons,
+    .menu-2:hover .material-icons,
+    .menu-2 > button:focus .material-icons,
+    .menu-3:hover .material-icons,
+    .menu-3 > button:focus .material-icons {
+        background-color: rgb(150, 150, 150);
+        transition: 250ms;
+    }
+    
+    #menuAssessment .material-icons,
+    #slideOutMenuAssessment .material-icons,
+    #slideOutMenuAssessment > button .material-icons,
+    .menu-1 .material-icons,
+    .menu-1 > button .material-icons,
+    .menu-2 .material-icons,
+    .menu-2 > button .material-icons,
+    .menu-3 .material-icons,
+    .menu-3 > button .material-icons {
+        transition: 250ms;
+    }
+
+    .lesson-completion:hover,
+    .lesson-completion:hover > i {
+        color: #CC0000;
+    }
+}
