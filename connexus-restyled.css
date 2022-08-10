@@ -13,16 +13,27 @@
         border-bottom-color: rgb(200, 200, 200);
     }
     
-    .header-button {
+    .header-button, #lessonNoteModal .header-button {
         background-color: rgb(75, 75, 75);
         border: 2px solid rgb(150, 150, 150);
     }
     
-    .header-button:focus {
-        background-color: rgb(150, 150, 150);
-        border: 2px solid rgb(75, 75, 75);
+    .header-button:focus, .header-button:hover,
+    span.material-icons:focus, span.material-icons:hover {
+        color: rgb(50, 50, 50);
     }
     
+    .header-button:focus, #lessonNoteModal .header-button:focus,
+    .header-button:hover, #lessonNoteModal .header-button:hover {
+        background-color: rgb(200, 200, 200) !important;
+        border: 2px solid rgb(75, 75, 75);
+    }
+
+    .lesson-note-button:focus, .lesson-note-button .material-icons:focus,
+    .lesson-note-button:hover, .lesson-note-button .material-icons:hover {
+        color: rgb(0, 100, 100);
+    }
+
     .assessment-item a {
         background-color: rgb(100, 100, 100);
         transition: 250ms;
