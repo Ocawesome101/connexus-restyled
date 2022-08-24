@@ -71,6 +71,18 @@
 
     .lesson-completion:hover,
     .lesson-completion:hover > i {
-        color: #CC0000;
+        color: #F00;
+    }
+    
+    .determinate.blue {
+        color: #F00;
+    }
+    
+    .progress .determinate {
+        background-color: #F00 !important;
+    }
+    
+    popupHeader {
+        background-color: rgb(50, 50, 50);
     }
 }
